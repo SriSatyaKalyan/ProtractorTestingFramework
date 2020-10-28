@@ -3,6 +3,7 @@ describe(" All Operations of Calculator", function () {
     it("Addition", function () {
 
         browser.get("http://juliemr.github.io/protractor-demo/");
+        browser.driver.manage().window().maximize();
         element(by.model("first")).sendKeys("10");
 
         //Selecting Addition
@@ -22,6 +23,8 @@ describe(" All Operations of Calculator", function () {
     it("Division", function () {
 
         browser.get("http://juliemr.github.io/protractor-demo/");
+        browser.driver.manage().window().maximize();
+
         element(by.model("first")).sendKeys("10");
 
         //Selecting Division
@@ -41,6 +44,8 @@ describe(" All Operations of Calculator", function () {
     it("Modulo Division", function () {
 
         browser.get("http://juliemr.github.io/protractor-demo/");
+        browser.driver.manage().window().maximize();
+
         element(by.model("first")).sendKeys("10");
 
         //Selecting Modulo Division
@@ -60,6 +65,8 @@ describe(" All Operations of Calculator", function () {
     it("Multiplication", function () {
 
         browser.get("http://juliemr.github.io/protractor-demo/");
+        browser.driver.manage().window().maximize();
+
         element(by.model("first")).sendKeys("10");
 
         //Selecting Multiplication
@@ -79,6 +86,8 @@ describe(" All Operations of Calculator", function () {
     it("Subtraction", function () {
 
         browser.get("http://juliemr.github.io/protractor-demo/");
+        browser.driver.manage().window().maximize();
+
         element(by.model("first")).sendKeys("10");
 
         //Selecting Subtraction

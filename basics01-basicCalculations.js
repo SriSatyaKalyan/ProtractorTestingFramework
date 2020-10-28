@@ -4,6 +4,8 @@ describe("Super Calculator - Protractor Baby Steps", function () {
 
     it("Simple Addition", function () {
         browser.get("http://juliemr.github.io/protractor-demo/");
+        browser.driver.manage().window().maximize();
+
         element(by.model("first")).sendKeys("3");
         element(by.model("second")).sendKeys("5");
         element(by.id("gobutton")).click();
@@ -21,6 +23,8 @@ describe("Super Calculator - Protractor Baby Steps", function () {
 
     it("Chain Locators", function () {
         browser.get("http://juliemr.github.io/protractor-demo/");
+        browser.driver.manage().window().maximize();
+
         element(by.model("first")).sendKeys("4");
         element(by.model("second")).sendKeys("4");
         element(by.id("gobutton")).click();

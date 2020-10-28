@@ -25,6 +25,7 @@ describe("Handling DropDowns", function () {
 
     it("Perform Addition", function () {
         browser.get("http://juliemr.github.io/protractor-demo/");
+        browser.driver.manage().window().maximize();
 
         Calculator(5, 4, "ADDITION");
         Calculator(6, 7, "MULTIPLICATION");

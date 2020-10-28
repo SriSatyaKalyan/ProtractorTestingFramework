@@ -9,6 +9,8 @@ describe("Results grabbed through History", function () {
 
     it("Result For Addition", function () {
         browser.get("http://juliemr.github.io/protractor-demo/");
+        browser.driver.manage().window().maximize();
+        
         element(by.model("first")).sendKeys("10");
 
         //Selecting Addition
