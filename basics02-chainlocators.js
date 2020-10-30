@@ -1,4 +1,4 @@
-describe(" All Operations of Calculator", function () {
+describe("All Operations of Calculator", function () {
 
     it("Addition", function () {
 
